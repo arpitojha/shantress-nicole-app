@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#0b0b0c" />
+    <meta name="description" content="Shantress Nicole Art Prints — bold digital art, fabric, and canvas prints. Browse the full collection and shop from your phone." />
+    <title>Shantress Nicole · Art Prints</title>
+
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="icon" href="icons/icon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="icons/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="Shantress Nicole" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="format-detection" content="telephone=no" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="topbar">
+        <button class="brand" data-page="home" aria-label="Go to home">
+          <span class="brand-mark" aria-hidden="true">S</span>
+          <span class="brand-type"><b>Shantress Nicole</b><small>Art Prints</small></span>
+        </button>
+        <a class="top-action" href="https://shantressnicole.shop" target="_blank" rel="noopener" aria-label="Visit the official shop">↗</a>
+      </header>
+
+      <main>
+        <!-- ------------------------------- HOME ------------------------------- -->
+        <section class="page active" id="home" aria-labelledby="home-title">
+          <article class="hero">
+            <img class="hero-image" id="hero-image" alt="" />
+            <div class="hero-body">
+              <p class="eyebrow">Welcome</p>
+              <span class="hero-script">Shantress Nicole</span>
+              <h1 id="home-title">Digital prints and digital downloads are available now worldwide!</h1>
+              <p>Do you love high-quality prints and beautiful digital designs? We offer poster prints, canvas prints, digital downloads, and seamless design prints featuring a wide collection of stunning designs made to impress.</p>
+              <div class="hero-actions">
+                <button class="button primary" data-page="shop">Explore the collection</button>
+                <a class="button ghost" href="https://shantressnicole.shop" target="_blank" rel="noopener">Visit full shop ↗</a>
+              </div>
+            </div>
+          </article>
+
+          <div class="stat-strip" id="home-stats"></div>
+
+          <div class="section-heading">
+            <div><p class="eyebrow">Browse by</p><h2>Collections</h2></div>
+          </div>
+          <div class="category-rail" id="category-rail"></div>
+
+          <div class="section-heading">
+            <div><p class="eyebrow">Spotlight</p><h2>Featured pieces</h2></div>
+            <button class="text-link" data-page="shop">See all <span aria-hidden="true">→</span></button>
+          </div>
+          <div class="product-grid" id="featured-grid"></div>
+
+          <article class="install-tip">
+            <span aria-hidden="true">⌁</span>
+            <div><strong>Install this app</strong><p id="install-guidance">Add Shantress Nicole to your home screen for a full-screen, app-like experience — works offline too.</p></div>
+            <button class="button outline compact" data-action="install">Install</button>
+          </article>
+        </section>
+
+        <!-- ------------------------------- SHOP ------------------------------- -->
+        <section class="page" id="shop" aria-labelledby="shop-title">
+          <div class="page-heading">
+            <p class="eyebrow">The full collection</p>
+            <h1 id="shop-title">Shop</h1>
+            <p id="shop-subtitle"></p>
+          </div>
+
+          <div class="toolbar">
+            <label class="search">
+              <span aria-hidden="true">⌕</span>
+              <input id="shop-search" type="search" placeholder="Search prints, fabric, canvas…" aria-label="Search the collection" autocomplete="off" />
+            </label>
+          </div>
+          <div class="chips" id="shop-chips" role="group" aria-label="Filter by collection"></div>
+
+          <div class="product-grid" id="shop-grid"></div>
+        </section>
+
+        <!-- ----------------------------- FAVORITES ---------------------------- -->
+        <section class="page" id="favorites" aria-labelledby="favorites-title">
+          <div class="page-heading">
+            <p class="eyebrow">Your selections</p>
+            <h1 id="favorites-title">Favorites</h1>
+            <p>Pieces you've saved while browsing, kept on this device.</p>
+          </div>
+          <div class="product-grid" id="favorites-grid"></div>
+        </section>
+
+        <!-- ------------------------------- ABOUT ------------------------------ -->
+        <section class="page" id="about" aria-labelledby="about-title">
+          <div class="page-heading">
+            <p class="eyebrow">The studio</p>
+            <h1 id="about-title">About</h1>
+          </div>
+
+          <article class="about-card signature">
+            <span class="script">Shantress Nicole</span>
+            <p class="eyebrow" style="margin-bottom:10px">Art Prints</p>
+            <p>Bold digital art, fabric, and canvas pieces — designed to impress, and delivered worldwide as instant digital downloads or made-to-order prints.</p>
+          </article>
+
+          <article class="about-card">
+            <h2>The collection</h2>
+            <div class="category-list" id="about-categories"></div>
+          </article>
+
+          <div class="section-heading" style="margin-top:28px">
+            <div><p class="eyebrow">Follow along</p><h2>Find Shantress Nicole</h2></div>
+          </div>
+          <div class="social-grid">
+            <a class="social-link" href="https://instagram.com/shantresscreations" target="_blank" rel="noopener">
+              <span class="glyph" aria-hidden="true">◎</span>
+              <span><strong>Instagram</strong><small>@shantresscreations</small></span>
+            </a>
+            <a class="social-link" href="https://www.tiktok.com/@shantressnicole" target="_blank" rel="noopener">
+              <span class="glyph" aria-hidden="true">♪</span>
+              <span><strong>TikTok</strong><small>@shantressnicole</small></span>
+            </a>
+            <a class="social-link" href="https://facebook.com/shantress.spencer/" target="_blank" rel="noopener">
+              <span class="glyph" aria-hidden="true">f</span>
+              <span><strong>Facebook</strong><small>shantress.spencer</small></span>
+            </a>
+            <a class="social-link" href="https://www.youtube.com/@shantressnicole" target="_blank" rel="noopener">
+              <span class="glyph" aria-hidden="true">▶</span>
+              <span><strong>YouTube</strong><small>@shantressnicole</small></span>
+            </a>
+          </div>
+
+          <article class="about-card" style="margin-top:14px">
+            <h2>Questions or custom orders?</h2>
+            <p>Send a message through the contact form on the official shop — that's where every order and inquiry is handled.</p>
+            <div style="margin-top:14px">
+              <a class="button primary" href="https://shantressnicole.shop/contact/" target="_blank" rel="noopener">Contact the shop ↗</a>
+            </div>
+          </article>
+
+          <p class="detail-note" style="margin-top:20px">An independent, unofficial companion app for shantressnicole.shop, built from the shop's own public catalog. © 2024 Shantress Nicole. All rights reserved.</p>
+        </section>
+      </main>
+
+      <nav class="bottom-nav" aria-label="Primary">
+        <button class="nav-item active" data-page="home"><span aria-hidden="true">⌂</span>Home</button>
+        <button class="nav-item" data-page="shop"><span aria-hidden="true">▦</span>Shop</button>
+        <button class="nav-item" data-page="favorites"><span aria-hidden="true">♡</span>Saved<span class="badge" id="favorites-badge" hidden>0</span></button>
+        <button class="nav-item" data-page="about"><span aria-hidden="true">✦</span>About</button>
+      </nav>
+    </div>
+
+    <dialog id="product-modal" aria-labelledby="detail-title">
+      <div class="detail-sheet">
+        <div class="detail-figure">
+          <img id="detail-image" alt="" />
+          <button class="detail-close" data-action="close-modal" aria-label="Close">×</button>
+        </div>
+        <div class="detail-body">
+          <p class="detail-cat" id="detail-category"></p>
+          <h2 id="detail-title"></h2>
+          <p class="detail-price" id="detail-price"></p>
+          <p class="detail-desc" id="detail-description"></p>
+          <div class="detail-actions">
+            <a class="button primary" id="detail-shop-link" target="_blank" rel="noopener">Shop this piece ↗</a>
+            <button class="button outline" id="detail-favorite" data-action="toggle-favorite-detail">Save</button>
+          </div>
+          <p class="detail-note">Purchases complete securely on the official Shantress Nicole shop.</p>
+          <div class="related-rail" id="related-rail" hidden>
+            <h3>More from this collection</h3>
+            <div class="related-scroll" id="related-scroll"></div>
+          </div>
+        </div>
+      </div>
+    </dialog>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+    <script type="module" src="src/app.js"></script>
+  </body>
+</html>
