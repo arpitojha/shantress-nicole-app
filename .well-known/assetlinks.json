@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "shop.shantressnicole.twa",
+      "sha256_cert_fingerprints": [
+        "D1:37:4A:7C:52:9B:D4:63:39:11:A6:0F:02:18:F9:E8:C0:A9:3E:87:CB:84:1C:D9:0E:C8:15:CD:87:A0:CB:16"
+      ]
+    }
+  }
+]
